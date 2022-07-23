@@ -55,14 +55,6 @@ body {
 
 .btn-disabled:active { opacity: 80%; }
 
-.btn-theme {
-  padding: 10px;
-  top: 10px;
-  right: 40px;
-  position: absolute;
-  z-index: 99;
-}
-
 .tooltip {
   padding: 8px;
   font-size: var(--font-sm);
@@ -172,4 +164,8 @@ hr { border-color: var(--grey); }
 .btn-copy {
   padding: 10px 14px;
   font-size: var(--font-md);
+}
+
+footer {
+  text-align: center;
 }
